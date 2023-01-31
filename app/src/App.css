@@ -1,0 +1,159 @@
+body{
+  background: #f8f8ff;
+}
+
+h4,p{
+margin: 0;
+
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container .head h1{
+  font-family: 'Poppins',serif;
+  font-size: 2.5rem;
+  padding: 1em;
+  color: #646681;
+  font-weight: 700;
+}
+
+.container .head{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.functions{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.btn-primary{
+  font-size: 1rem;
+  font-family: 'Poppins',serif;
+  padding:0.5em 1em;
+  background: #646ff0;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-default{
+  font-size: 1rem;
+  font-family: 'Poppins',serif;
+  padding:0.5em 1em;
+  background: #cccdde;
+  color: #646681;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.select-filter{
+  font-size: 1rem;
+  font-family: 'Poppins',serif;
+  padding:0.5em 1em;
+  background: #cccdde;
+  border-radius: 6px;
+  font-weight: 500;
+  border: none;
+  color: #585858;
+  cursor: pointer;
+  width: 150px;
+}
+
+.body{
+  background: #ecedf6;
+  padding: 1.5rem;
+}
+
+.block{
+  display: block !important;
+}
+
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ecedf6;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 700px; /* Could be more or less, depending on screen size */
+}
+
+
+.task-input,select{
+  background: #fff;
+  width: auto;
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.form{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.modal-head{
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins',serif;
+  font-weight: 700;
+  color: #646681;
+}
+
+.form-group{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+select,label{
+  font-size: 1rem;
+  font-family: 'Poppins',serif;
+  font-weight: 500;
+}
+
+.form-tools{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.checkbox{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1rem;
+}
